@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Enums
 {
-    class PirateResponseType
+    public enum PirateResponseType
     {
+        PayRansom,
+        UseDefenseCard,
+        Ignore
     }
 }

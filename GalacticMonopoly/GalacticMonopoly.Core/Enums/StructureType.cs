@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Enums
 {
-    class StructureType
+    public enum StructureType
     {
+        SpacePort,
+        Outpost,
+        Mine,
+        FoodFarm,
+        GalacticHotel,
+        SpaceDock
     }
 }
+

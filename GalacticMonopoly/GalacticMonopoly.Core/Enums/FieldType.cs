@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Enums
 {
-    class FieldType
+    public enum FieldType
     {
+        Planet,
+        Chance,
+        PirateAttack,
+        GalacticTrain
     }
 }

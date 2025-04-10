@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Enums
 {
-    class CardType
+    public enum CardType
     {
+        PirateAttack,
+        DefenseCard,
+        GalacticTicket,
+        TaxPayment,
+        LotteryWin,
+        EngineFailure
     }
 }

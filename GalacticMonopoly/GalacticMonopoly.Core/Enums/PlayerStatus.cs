@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Enums
 {
-    class PlayerStatus
+    public enum PlayerStatus
     {
+        Active,
+        InRepair,
+        InJail,
+        InPirateAttack
     }
 }
+
