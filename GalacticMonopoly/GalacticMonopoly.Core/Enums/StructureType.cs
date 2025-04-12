@@ -8,12 +8,16 @@ namespace GalacticMonopoly.Core.Enums
 {
     public enum StructureType
     {
-        SpacePort,
-        Outpost,
-        Mine,
-        FoodFarm,
-        GalacticHotel,
-        SpaceDock
+        SpacePort,                  // port kosmiczny
+        Outpost,                    // posterunek
+        Habitat,                    // habitat mieszkalny
+        Colony,                     // kolonia
+        GalacticHotel,              // hotel galaktyczny
+        PlanetaryHotelNetwork,      // sieć hoteli planetarnych
+        Mine,                 // Kopalnia
+        Farm,                 // farma żywności
+        GalacticShipyard,           // stocznia galaktyczna
+        AsteroidBeltMine,          // Kopalnia w pasie asteroid
+
     }
 }
-

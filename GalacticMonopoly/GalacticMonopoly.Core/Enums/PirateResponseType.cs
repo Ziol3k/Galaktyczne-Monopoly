@@ -8,8 +8,8 @@ namespace GalacticMonopoly.Core.Enums
 {
     public enum PirateResponseType
     {
-        PayRansom,
-        UseDefenseCard,
-        Ignore
+        PayRansom,          // Gracz płaci okup
+        UseDefenseCard,     // Gracz używa karty obrony przed piratami jeśli taką posiada
+        TakeLoss            // Gracz traci dwie tury
     }
 }
