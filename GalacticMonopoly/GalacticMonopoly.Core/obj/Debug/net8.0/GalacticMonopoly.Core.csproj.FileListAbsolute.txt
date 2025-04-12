@@ -1,0 +1,12 @@
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.AssemblyInfoInputs.cache
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.AssemblyInfo.cs
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.csproj.CoreCompileInputs.cache
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.sourcelink.json
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\bin\Debug\net8.0\GalacticMonopoly.Core.deps.json
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\bin\Debug\net8.0\GalacticMonopoly.Core.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\bin\Debug\net8.0\GalacticMonopoly.Core.pdb
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\refint\GalacticMonopoly.Core.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\GalacticMonopoly.Core.pdb
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.Core\obj\Debug\net8.0\ref\GalacticMonopoly.Core.dll

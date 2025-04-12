@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.UI", "GalacticMonopoly.UI\GalacticMonopoly.UI.csproj", "{B422541E-9DDC-4719-B6CA-8DFA790108B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.Core", "GalacticMonopoly.Core\GalacticMonopoly.Core.csproj", "{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.UnitTests", "GalacticMonopoly.UnitTests\GalacticMonopoly.UnitTests.csproj", "{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

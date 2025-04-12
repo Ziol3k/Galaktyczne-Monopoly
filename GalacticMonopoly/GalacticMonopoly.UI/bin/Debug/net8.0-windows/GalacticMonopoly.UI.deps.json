@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GalacticMonopoly.UI/1.0.0": {
+        "dependencies": {
+          "GalacticMonopoly.Core": "1.0.0"
+        },
+        "runtime": {
+          "GalacticMonopoly.UI.dll": {}
+        }
+      },
+      "GalacticMonopoly.Core/1.0.0": {
+        "runtime": {
+          "GalacticMonopoly.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GalacticMonopoly.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GalacticMonopoly.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
