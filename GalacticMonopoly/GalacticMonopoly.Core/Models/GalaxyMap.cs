@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace GalacticMonopoly.Core.Models
 {
-    class GalaxyMap
+    public class GalaxyMap
     {
+        public List<Field> Fields { get; set; } = new List<Field>();
+
+        public void AddField(Field field)
+        {
+            Fields.Add(field);
+        }
+
+        public void RemoveField(Field field)
+        {
+            Fields.Remove(field);
+        }
     }
 }
+
