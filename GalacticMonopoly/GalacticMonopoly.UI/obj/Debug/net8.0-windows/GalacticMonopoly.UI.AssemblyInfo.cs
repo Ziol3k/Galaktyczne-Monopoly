@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GalacticMonopoly.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66ad9248e8cb816af80ae9428af6f81fb5869578")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f2605e1fa1da599f12d787338d20d7486916edc")]
 [assembly: System.Reflection.AssemblyProductAttribute("GalacticMonopoly.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GalacticMonopoly.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

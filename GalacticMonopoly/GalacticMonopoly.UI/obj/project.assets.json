@@ -28,19 +28,19 @@
   },
   "packageFolders": {
     "C:\\Users\\jan_z\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+      "projectUniqueName": "D:\\Studia\\Galaktyczne-Monopoly\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
       "projectName": "GalacticMonopoly.UI",
-      "projectPath": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+      "projectPath": "D:\\Studia\\Galaktyczne-Monopoly\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
       "packagesPath": "C:\\Users\\jan_z\\.nuget\\packages\\",
-      "outputPath": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\obj\\",
+      "outputPath": "D:\\Studia\\Galaktyczne-Monopoly\\GalacticMonopoly\\GalacticMonopoly.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\jan_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,8 +59,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj": {
-              "projectPath": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj"
+            "D:\\Studia\\Galaktyczne-Monopoly\\GalacticMonopoly\\GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj": {
+              "projectPath": "D:\\Studia\\Galaktyczne-Monopoly\\GalacticMonopoly\\GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj"
             }
           }
         }
@@ -99,7 +99,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

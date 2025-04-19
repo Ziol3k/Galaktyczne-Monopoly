@@ -20,10 +20,7 @@ namespace GalacticMonopoly.Core.Models
             Planet = planet;
         }
 
-        public void LandOn(Player player)
-        {
-            
-        }
+
     }
 }
 

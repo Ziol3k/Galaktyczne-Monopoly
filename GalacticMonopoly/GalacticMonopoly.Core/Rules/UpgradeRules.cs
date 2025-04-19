@@ -13,6 +13,10 @@ namespace GalacticMonopoly.Core.Rules
         {
             switch (structure.Type)
             {
+                case Enums.StructureType.Outpost:
+                case Enums.StructureType.Habitat:
+                case Enums.StructureType.Colony:
+                    return true;
                 case Enums.StructureType.Farm:
                     return structure.Level < 5;
                 case Enums.StructureType.Mine:

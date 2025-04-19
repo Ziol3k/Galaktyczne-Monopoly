@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\
+D:\Studia\Galaktyczne-Monopoly\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\
 GalacticMonopoly.UI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\App.xaml
+D:\Studia\Galaktyczne-Monopoly\GalacticMonopoly\GalacticMonopoly.UI\App.xaml
 11407045341
 
 643368771
-199631631738
+199-2120114769
 MainWindow.xaml;
 
-True
+False
 
