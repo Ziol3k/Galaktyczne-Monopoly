@@ -23,3 +23,5 @@ D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\GalacticMonopoly.UI.pdb
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\GalacticMonopoly.UI.genruntimeconfig.cache
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\ref\GalacticMonopoly.UI.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\bin\Debug\net8.0-windows\Controls.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\bin\Debug\net8.0-windows\Controls.pdb

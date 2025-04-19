@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace GalacticMonopoly.UI;
 
 /// <summary>
@@ -19,5 +20,10 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+    }
+
+    private void PlanetFieldControl_Loaded(object sender, RoutedEventArgs e)
+    {
+
     }
 }

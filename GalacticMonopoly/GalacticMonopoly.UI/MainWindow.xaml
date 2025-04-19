@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GalacticMonopoly.UI"
+        xmlns:controls="clr-namespace:Controls;assembly=Controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <controls:PlanetFieldControl
+            PlanetName="Venus"
+            BottomInfo="Price: $1000"
+            BackgroundImage="/Images/venus.png"
+            BackgroundColor="#FFDBA758"
+            Width="200" Height="250" Margin="300,86,300,98" Loaded="PlanetFieldControl_Loaded"/>
+
 
     </Grid>
 </Window>
