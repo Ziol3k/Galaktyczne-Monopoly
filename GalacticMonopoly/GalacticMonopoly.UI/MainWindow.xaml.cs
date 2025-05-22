@@ -1,29 +1,21 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using GalacticMonopoly.Core.Game;
+using GalacticMonopoly.UI.Views;
 
-
-namespace GalacticMonopoly.UI;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
+namespace GalacticMonopoly.UI
 {
-    public MainWindow()
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
-    }
+        public MainWindow()
+        {
+            InitializeComponent();
+            // na start pokazujemy menu
+            MainFrame.Navigate(new MainMenuPage(this));
+        }
 
-    private void PlanetFieldControl_Loaded(object sender, RoutedEventArgs e)
-    {
-
+        public void StartGame(Game game)
+        {
+            MainFrame.Navigate(new GameBoardPage(game));
+        }
     }
 }

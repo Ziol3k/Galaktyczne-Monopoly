@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\App.xaml
-11407045341
-
-41370739227
+4-1294391294
+22-42177036
+81432708696
 200311646879
-MainWindow.xaml;
+MainWindow.xaml;Views\AvatarSelectWindow.xaml;Views\GameBoardPage.xaml;Views\MainMenuPage.xaml;
 
 False
 

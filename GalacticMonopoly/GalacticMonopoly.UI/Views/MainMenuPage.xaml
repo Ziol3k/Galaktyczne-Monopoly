@@ -1,0 +1,25 @@
+﻿<Page x:Class="GalacticMonopoly.UI.Views.MainMenuPage"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:controls="clr-namespace:Controls;assembly=Controls"
+     Background="Black">
+   <Grid>
+       <Image Source="/Images/MainBackground.png" Stretch="Fill" Panel.ZIndex="0" Height="1024" VerticalAlignment="Bottom"/>
+       <StackPanel Panel.ZIndex="1" Background="#AA000000"
+               VerticalAlignment="Center" HorizontalAlignment="Center"
+               Margin="30" Width="800">
+           <TextBlock Text="Galaktyczne Monopoly"
+                FontSize="36" FontWeight="Bold"
+                Foreground="White" TextAlignment="Center" Margin="0,0,0,30"/>
+           <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+               <Button Content="2 Graczy" Tag="2" Click="PlayerCount_Click" Margin="5"/>
+               <Button Content="3 Graczy" Tag="3" Click="PlayerCount_Click" Margin="5"/>
+               <Button Content="4 Graczy" Tag="4" Click="PlayerCount_Click" Margin="5"/>
+           </StackPanel>
+           <StackPanel x:Name="PlayersPanel" Margin="0,20"/>
+           <Button Content="Rozpocznij grę"
+             HorizontalAlignment="Center"
+             Width="200" Click="StartGame_Click"/>
+       </StackPanel>
+   </Grid>
+</Page>

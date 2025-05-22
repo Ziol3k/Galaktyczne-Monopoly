@@ -2,11 +2,8 @@ D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\bin\Debug\net8.0-windows
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\bin\Debug\net8.0-windows\Controls.dll
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\bin\Debug\net8.0-windows\Controls.pdb
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\PlanetFieldControl.g.cs
-D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\UserControl1.g.cs
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls_MarkupCompile.cache
-D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls_MarkupCompile.lref
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\PlanetFieldControl.baml
-D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\UserControl1.baml
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls.g.resources
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls.GeneratedMSBuildEditorConfig.editorconfig
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls.AssemblyInfoInputs.cache
@@ -17,3 +14,7 @@ D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\refint\Controls.dll
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\Controls.pdb
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\ref\Controls.dll
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\PlayerSetupControl.baml
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\PlayerSetupControl.g.cs
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\FieldControl.baml
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\Controls\obj\Debug\net8.0-windows\FieldControl.g.cs

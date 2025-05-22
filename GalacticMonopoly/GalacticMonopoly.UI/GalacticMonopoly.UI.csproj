@@ -9,6 +9,101 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\avatars\player1.png" />
+    <None Remove="Images\avatars\player2.png" />
+    <None Remove="Images\avatars\player3.png" />
+    <None Remove="Images\avatars\player4.png" />
+    <None Remove="Images\background.png" />
+    <None Remove="Images\Draxon.png" />
+    <None Remove="Images\EltarPrime.png" />
+    <None Remove="Images\Exanor.png" />
+    <None Remove="Images\Felmoria.png" />
+    <None Remove="Images\Krelos.png" />
+    <None Remove="Images\Lunaris.png" />
+    <None Remove="Images\MainBackground.png" />
+    <None Remove="Images\Morvex.png" />
+    <None Remove="Images\Nythos.png" />
+    <None Remove="Images\Omegara.png" />
+    <None Remove="Images\Typhar.png" />
+    <None Remove="Images\Varkos-9.png" />
+    <None Remove="Images\Velthos.png" />
+    <None Remove="Images\venus.png" />
+    <None Remove="Images\Vezzar.png" />
+    <None Remove="Images\Xyros-7.png" />
+    <None Remove="Images\Ymiris.png" />
+    <None Remove="Images\Zarkon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\avatars\player1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\avatars\player2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\avatars\player3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\avatars\player4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Draxon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\EltarPrime.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Exanor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Felmoria.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Krelos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Lunaris.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainBackground.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Morvex.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Nythos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Omegara.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Typhar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Varkos-9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Velthos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\venus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Vezzar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Xyros-7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Ymiris.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Controls\Controls.csproj" />
     <ProjectReference Include="..\GalacticMonopoly.Core\GalacticMonopoly.Core.csproj" />
   </ItemGroup>

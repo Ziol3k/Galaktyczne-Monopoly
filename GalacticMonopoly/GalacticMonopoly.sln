@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.UI", "Gala
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.Core", "GalacticMonopoly.Core\GalacticMonopoly.Core.csproj", "{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalacticMonopoly.UnitTests", "GalacticMonopoly.UnitTests\GalacticMonopoly.UnitTests.csproj", "{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{BC3E63C8-0617-466E-B11D-6A79640263DF}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{163EB17D-4CC4-4CA3-ACAE-5D9092289B01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC3E63C8-0617-466E-B11D-6A79640263DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC3E63C8-0617-466E-B11D-6A79640263DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3E63C8-0617-466E-B11D-6A79640263DF}.Release|Any CPU.ActiveCfg = Release|Any CPU

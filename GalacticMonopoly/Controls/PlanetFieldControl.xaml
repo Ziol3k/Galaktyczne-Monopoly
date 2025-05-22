@@ -12,11 +12,11 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <Border Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5" Margin="5">
+            <Border Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5">
                 <TextBlock Text="{Binding PlanetName, ElementName=root}"
                            Foreground="White"
                            FontWeight="Bold"
-                           FontSize="16"
+                           FontSize="10"
                            HorizontalAlignment="Center"
                            Padding="4"
                            Background="Transparent"/>
@@ -27,10 +27,10 @@
                 <ContentPresenter Content="{Binding InnerContent, ElementName=root}" />
             </Grid>
 
-            <Border Grid.Row="2" Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5" Margin="5">
+            <Border Grid.Row="2" Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5">
                 <TextBlock Text="{Binding BottomInfo, ElementName=root}"
                            Foreground="White"
-                           FontSize="14"
+                           FontSize="10"
                            FontStyle="Italic"
                            HorizontalAlignment="Center"
                            Padding="4"

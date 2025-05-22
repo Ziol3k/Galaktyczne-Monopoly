@@ -13,6 +13,7 @@ namespace GalacticMonopoly.Core.Game
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
+        public string AvatarPath { get; set; }
         public int Credits { get; set; }
         public List<Card> Cards { get; set; } = new List<Card>();
         public List<Planet> OwnedPlanets { get; set; } = new List<Planet>();
@@ -33,6 +34,7 @@ namespace GalacticMonopoly.Core.Game
         {
             Credits += amount;
             GameEventLogger.LogCreditChange(this, amount, "income");
+            AvatarPath = "Images/avatars/default.png";
         }
 
         public void AddPlanet(Planet planet)
