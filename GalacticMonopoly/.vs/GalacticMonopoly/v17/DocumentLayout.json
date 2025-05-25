@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\gameboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\map\\defaultmapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\map\\defaultmapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\game\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\game\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\rules\\fieldeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\rules\\fieldeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\utils\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\utils\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\controls\\planetfieldcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|solutionrelative:controls\\planetfieldcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\services\\galaxymovementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\services\\galaxymovementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\controls\\planetfieldcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|solutionrelative:controls\\planetfieldcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\controls\\fieldcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +47,32 @@
       "RelativeMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|solutionrelative:controls\\fieldcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\galacticmonopoly.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\galacticmonopoly.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\models\\galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\models\\galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\gameboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\gameboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\avatarselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\avatarselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\avatarselectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\avatarselectwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\controls\\playersetupcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +83,32 @@
       "RelativeMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|solutionrelative:controls\\playersetupcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\avatarselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\avatarselectwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\services\\gameeventlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\services\\gameeventlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\controls\\circlepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC3E63C8-0617-466E-B11D-6A79640263DF}|Controls\\Controls.csproj|solutionrelative:controls\\circlepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\views\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\views\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\map\\defaultmapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\map\\defaultmapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\rules\\gamerules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\rules\\gamerules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.ui\\galacticmonopoly.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B422541E-9DDC-4719-B6CA-8DFA790108B2}|GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj|solutionrelative:galacticmonopoly.ui\\galacticmonopoly.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\models\\galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\models\\galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|d:\\studia\\galaktyczne monoply\\galacticmonopoly\\galacticmonopoly.core\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F64CABF-04B2-4DA8-8BF4-EE2BDCA9AD14}|GalacticMonopoly.Core\\GalacticMonopoly.Core.csproj|solutionrelative:galacticmonopoly.core\\enums\\fieldtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,131 +122,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GalacticMonopoly.UI",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
-              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
-              "RelativeToolTip": "GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-17T17:07:28.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GalaxyMap.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
-              "RelativeToolTip": "GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:05:59.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Game.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Game.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Game\\Game.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Game.cs",
-              "RelativeToolTip": "GalacticMonopoly.Core\\Game\\Game.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:05:40.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameBoardPage.xaml.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
-              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAswFUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:54:28.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DefaultMapFactory.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
-              "RelativeToolTip": "GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:08:11.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenuPage.xaml.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
-              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAwwD8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:26:12.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FieldControl.xaml",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml",
-              "RelativeDocumentMoniker": "Controls\\FieldControl.xaml",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml",
-              "RelativeToolTip": "Controls\\FieldControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-17T17:09:03.062Z",
+              "Title": "Dice.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Utils\\Dice.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Utils\\Dice.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Utils\\Dice.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Utils\\Dice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:01:59.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FieldControl.xaml.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml.cs",
-              "RelativeDocumentMoniker": "Controls\\FieldControl.xaml.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml.cs",
-              "RelativeToolTip": "Controls\\FieldControl.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "FieldEffects.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Rules\\FieldEffects.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Rules\\FieldEffects.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Rules\\FieldEffects.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Rules\\FieldEffects.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:09:22.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FieldType.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Enums\\FieldType.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Enums\\FieldType.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Enums\\FieldType.cs",
-              "RelativeToolTip": "GalacticMonopoly.Core\\Enums\\FieldType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T17:00:19.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AvatarSelectWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
-              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
-              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T16:30:39.207Z",
+              "WhenOpened": "2025-05-25T18:35:09.139Z",
               "EditorCaption": ""
             },
             {
@@ -211,7 +160,160 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameBoardPage.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:54:28.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlanetFieldControl.xaml",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlanetFieldControl.xaml",
+              "RelativeDocumentMoniker": "Controls\\PlanetFieldControl.xaml",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlanetFieldControl.xaml",
+              "RelativeToolTip": "Controls\\PlanetFieldControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T16:39:37.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Game\\Game.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Game.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Game\\Game.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:05:40.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GalaxyMovementServices.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Services\\GalaxyMovementServices.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Services\\GalaxyMovementServices.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Services\\GalaxyMovementServices.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Services\\GalaxyMovementServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:34:47.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\GameState.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Game\\GameState.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\GameState.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Game\\GameState.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:26:30.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanetFieldControl.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlanetFieldControl.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\PlanetFieldControl.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlanetFieldControl.xaml.cs",
+              "RelativeToolTip": "Controls\\PlanetFieldControl.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:39:42.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Player.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Game\\Player.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Game\\Player.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Game\\Player.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:28:33.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FieldControl.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\FieldControl.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml.cs",
+              "RelativeToolTip": "Controls\\FieldControl.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:09:22.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FieldControl.xaml",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml",
+              "RelativeDocumentMoniker": "Controls\\FieldControl.xaml",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\FieldControl.xaml",
+              "RelativeToolTip": "Controls\\FieldControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T17:09:03.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GalacticMonopoly.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:39:06.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameBoardPage.xaml",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\GameBoardPage.xaml",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\GameBoardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T16:38:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "MainMenuPage.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\MainMenuPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:26:12.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "MainMenuPage.xaml",
               "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\MainMenuPage.xaml",
               "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\MainMenuPage.xaml",
@@ -223,20 +325,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
+              "Title": "AvatarSelectWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:30:39.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AvatarSelectWindow.xaml",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Views\\AvatarSelectWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T16:38:21.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "PlayerSetupControl.xaml.cs",
               "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlayerSetupControl.xaml.cs",
               "RelativeDocumentMoniker": "Controls\\PlayerSetupControl.xaml.cs",
               "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlayerSetupControl.xaml.cs",
               "RelativeToolTip": "Controls\\PlayerSetupControl.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T16:27:33.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "PlayerSetupControl.xaml",
               "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\PlayerSetupControl.xaml",
               "RelativeDocumentMoniker": "Controls\\PlayerSetupControl.xaml",
@@ -245,6 +372,92 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-17T16:26:58.336Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameEventLogger.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Services\\GameEventLogger.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Services\\GameEventLogger.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Services\\GameEventLogger.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Services\\GameEventLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:19:55.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CirclePanel.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\CirclePanel.cs",
+              "RelativeDocumentMoniker": "Controls\\CirclePanel.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\Controls\\CirclePanel.cs",
+              "RelativeToolTip": "Controls\\CirclePanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:39:19.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameRules.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Rules\\GameRules.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Rules\\GameRules.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Rules\\GameRules.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Rules\\GameRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:36:35.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GalacticMonopoly.UI.csproj",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+              "RelativeToolTip": "GalacticMonopoly.UI\\GalacticMonopoly.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T17:07:28.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GalaxyMap.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Models\\GalaxyMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:05:59.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DefaultMapFactory.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
+              "RelativeToolTip": "GalacticMonopoly.UI\\Map\\DefaultMapFactory.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:08:11.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FieldType.cs",
+              "DocumentMoniker": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Enums\\FieldType.cs",
+              "RelativeDocumentMoniker": "GalacticMonopoly.Core\\Enums\\FieldType.cs",
+              "ToolTip": "D:\\Studia\\Galaktyczne Monoply\\GalacticMonopoly\\GalacticMonopoly.Core\\Enums\\FieldType.cs",
+              "RelativeToolTip": "GalacticMonopoly.Core\\Enums\\FieldType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:00:19.819Z"
             }
           ]
         }

@@ -1,7 +1,7 @@
 ﻿GalacticMonopoly.UI
 1.0.0.0
 
-winexe
+exe
 C#
 .cs
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\
@@ -16,5 +16,5 @@ D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\App.xaml
 200311646879
 MainWindow.xaml;Views\AvatarSelectWindow.xaml;Views\GameBoardPage.xaml;Views\MainMenuPage.xaml;
 
-False
+True
 

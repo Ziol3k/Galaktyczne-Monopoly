@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Name="root"
              Background="Transparent">
-
-    <Border Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="10" >
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </UserControl.Resources>
+    <Border Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="10">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -12,19 +14,29 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
+            <StackPanel x:Name="TopMarkerPanel"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Background="White"
+                        Height="12"
+                        Margin="2"/>
+
             <Border Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5">
                 <TextBlock Text="{Binding PlanetName, ElementName=root}"
                            Foreground="White"
                            FontWeight="Bold"
                            FontSize="10"
                            HorizontalAlignment="Center"
-                           Padding="4"
-                           Background="Transparent"/>
+                           Padding="4"/>
             </Border>
 
             <Grid Grid.Row="1" Background="Transparent">
                 <Image Source="{Binding BackgroundImage, ElementName=root}" Stretch="Fill"/>
-                <ContentPresenter Content="{Binding InnerContent, ElementName=root}" />
+                <StackPanel x:Name="OccupantsPanel"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"
+                            Margin="2"/>
             </Grid>
 
             <Border Grid.Row="2" Background="{Binding BackgroundColor, ElementName=root}" CornerRadius="5">
@@ -33,8 +45,7 @@
                            FontSize="10"
                            FontStyle="Italic"
                            HorizontalAlignment="Center"
-                           Padding="4"
-                           Background="Transparent"/>
+                           Padding="4"/>
             </Border>
         </Grid>
     </Border>

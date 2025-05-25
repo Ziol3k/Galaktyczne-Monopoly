@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Controls
 {
@@ -58,13 +48,46 @@ namespace Controls
         public static readonly DependencyProperty BackgroundColorProperty =
             DependencyProperty.Register(nameof(BackgroundColor), typeof(Brush), typeof(PlanetFieldControl), new PropertyMetadata(Brushes.Black));
 
-        public object InnerContent
+        public List<UIElement> Occupants
         {
-            get => GetValue(InnerContentProperty);
-            set => SetValue(InnerContentProperty, value);
+            get => (List<UIElement>)GetValue(OccupantsProperty);
+            set => SetValue(OccupantsProperty, value);
         }
 
-        public static readonly DependencyProperty InnerContentProperty =
-            DependencyProperty.Register(nameof(InnerContent), typeof(object), typeof(PlanetFieldControl), new PropertyMetadata(null));
+        public static readonly DependencyProperty OccupantsProperty =
+            DependencyProperty.Register(nameof(Occupants), typeof(List<UIElement>), typeof(PlanetFieldControl), new PropertyMetadata(new List<UIElement>(), OnOccupantsChanged));
+
+        private static void OnOccupantsChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is PlanetFieldControl control && control.OccupantsPanel != null)
+            {
+                control.OccupantsPanel.Children.Clear();
+                foreach (var el in control.Occupants)
+                {
+                    control.OccupantsPanel.Children.Add(el);
+                }
+            }
+        }
+
+        public List<UIElement> TopMarkers
+        {
+            get => (List<UIElement>)GetValue(TopMarkersProperty);
+            set => SetValue(TopMarkersProperty, value);
+        }
+
+        public static readonly DependencyProperty TopMarkersProperty =
+            DependencyProperty.Register(nameof(TopMarkers), typeof(List<UIElement>), typeof(PlanetFieldControl), new PropertyMetadata(new List<UIElement>(), OnTopMarkersChanged));
+
+        private static void OnTopMarkersChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is PlanetFieldControl control && control.TopMarkerPanel != null)
+            {
+                control.TopMarkerPanel.Children.Clear();
+                foreach (var el in control.TopMarkers)
+                {
+                    control.TopMarkerPanel.Children.Add(el);
+                }
+            }
+        }
     }
 }

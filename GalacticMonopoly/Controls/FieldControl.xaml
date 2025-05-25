@@ -2,12 +2,26 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              Width="70" Height="70" Margin="5">
-  <Border CornerRadius="5" Background="Black" Padding="5">
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-      <Image x:Name="Icon" Width="32" Height="32" Margin="0,0,0,5"/>
-      <TextBlock x:Name="Label"
-                 Foreground="White"
-                 FontSize="10" TextAlignment="Center"/>
-    </StackPanel>
-  </Border>
+    <Border CornerRadius="5" Background="Black" Padding="5">
+        <Grid>
+            <StackPanel x:Name="TopMarkerPanel"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        Margin="2"
+                        Background="White"
+                        Height="12"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image x:Name="Icon" Width="32" Height="32" Margin="0,0,0,5"/>
+                <TextBlock x:Name="Label"
+                           Foreground="White"
+                           FontSize="10" TextAlignment="Center"/>
+            </StackPanel>
+            <StackPanel x:Name="OccupantsPanel"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Margin="2"/>
+        </Grid>
+    </Border>
 </UserControl>

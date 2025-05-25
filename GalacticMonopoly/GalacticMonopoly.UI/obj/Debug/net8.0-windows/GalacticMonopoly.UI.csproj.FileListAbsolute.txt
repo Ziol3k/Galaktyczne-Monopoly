@@ -53,3 +53,5 @@ D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\bin\Debug\net
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\bin\Debug\net8.0-windows\Images\Xyros-7.png
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\bin\Debug\net8.0-windows\Images\Ymiris.png
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\GalacticMonopoly.UI_Content.g.cs
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\GalacticMonopoly.UI_MarkupCompile.lref
+D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\obj\Debug\net8.0-windows\App.baml

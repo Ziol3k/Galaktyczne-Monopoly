@@ -8,6 +8,7 @@ using GalacticMonopoly.Core.Game;
 using GalacticMonopoly.Core.Models;
 using GalacticMonopoly.Core.Services;
 
+
 namespace GalacticMonopoly.Core.Rules
 {
     public class FieldEffects
@@ -35,11 +36,9 @@ namespace GalacticMonopoly.Core.Rules
 
                     if (!planet.IsOwned)
                     {
-                        if (player.Credits >= planet.Price)
-                        {
-                            planet.Buy(player);
-                        }
+                        // Decyzja o zakupie przeniesiona do UI
                     }
+ 
                     else if (planet.Owner != player)
                     {
                         // Obsługa opłat dla właściciela planety
