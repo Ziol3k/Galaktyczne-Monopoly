@@ -47,22 +47,34 @@ namespace GalacticMonopoly.Core.Services
 
         public static void LogStructureBuilt(Player player, Planet planet, StructureType structureType)
         {
-            Log($"{player.Name} built {structureType} on {planet.Name}.");
+            string target = planet != null ? $"on planet {planet.Name}" : "";
+            Log($"{player?.Name} built {structureType} {target}.");
         }
 
-        public static void LogStructurredBuilt(Player player, SystemPlanet system, StructureType structureType)
+        public static void LogSystemStructureBuilt(Player player, SystemPlanet system, StructureType structureType)
         {
-            Log($"{player.Name} built {structureType} on {system.Name}.");
+            string target = system != null ? $"in system {system.Name}" : "";
+            Log($"{player?.Name} built {structureType} {target}.");
         }
 
         public static void LogStructureUpgrade(Player player, Structure structure)
         {
-            Log($"{player.Name} upgraded {structure.Type} on {structure.Planet.Name} to level {structure.Level}.");
+            string target = structure.Planet != null
+                ? $"on {structure.Planet.Name}"
+                : structure.System != null
+                    ? $"in system {structure.System.Name}"
+                    : "";
+            Log($"{player?.Name} upgraded {structure.Type} {target} to level {structure.Level}.");
         }
 
         public static void LogStructureDowngrade(Player player, Structure structure)
         {
-            Log($"{player.Name}'s {structure.Type} on {structure.Planet.Name} was downgraded to level {structure.Level}.");
+            string target = structure.Planet != null
+                ? $"on {structure.Planet.Name}"
+                : structure.System != null
+                    ? $"in system {structure.System.Name}"
+                    : "";
+            Log($"{player?.Name}'s {structure.Type} {target} was downgraded to level {structure.Level}.");
         }
 
         public static void LogSystemOwnership(Player player, SystemPlanet system)

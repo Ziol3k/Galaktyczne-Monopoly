@@ -3,6 +3,33 @@
      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
      xmlns:controls="clr-namespace:Controls;assembly=Controls"
      Background="Black">
+   <Page.Resources>
+       <Style x:Key="CosmoButton" TargetType="Button">
+           <Setter Property="Margin" Value="4"/>
+           <Setter Property="Padding" Value="8,2"/>
+           <Setter Property="Background" Value="#20294A"/>
+           <Setter Property="Foreground" Value="#16E5F5"/>
+           <Setter Property="BorderBrush" Value="#39C2CB"/>
+           <Setter Property="BorderThickness" Value="1"/>
+           <Setter Property="FontWeight" Value="Bold"/>
+           <Setter Property="Cursor" Value="Hand"/>
+           <Setter Property="Height" Value="28"/>
+           <Setter Property="MinWidth" Value="90"/>
+           <Setter Property="Template">
+               <Setter.Value>
+                   <ControlTemplate TargetType="Button">
+                       <Border Background="{TemplateBinding Background}"
+                               BorderBrush="{TemplateBinding BorderBrush}"
+                               BorderThickness="{TemplateBinding BorderThickness}"
+                               CornerRadius="8">
+                           <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                       </Border>
+                   </ControlTemplate>
+               </Setter.Value>
+           </Setter>
+           <Setter Property="SnapsToDevicePixels" Value="True"/>
+       </Style>
+   </Page.Resources>
    <Grid>
        <Image Source="/Images/MainBackground.png" Stretch="Fill" Panel.ZIndex="0" Height="1024" VerticalAlignment="Bottom"/>
        <StackPanel Panel.ZIndex="1" Background="#AA000000"
@@ -12,14 +39,15 @@
                 FontSize="36" FontWeight="Bold"
                 Foreground="White" TextAlignment="Center" Margin="0,0,0,30"/>
            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-               <Button Content="2 Graczy" Tag="2" Click="PlayerCount_Click" Margin="5"/>
-               <Button Content="3 Graczy" Tag="3" Click="PlayerCount_Click" Margin="5"/>
-               <Button Content="4 Graczy" Tag="4" Click="PlayerCount_Click" Margin="5"/>
+               <Button Content="2 Graczy" Tag="2" Click="PlayerCount_Click" Margin="5" Style="{StaticResource CosmoButton}"/>
+               <Button Content="3 Graczy" Tag="3" Click="PlayerCount_Click" Margin="5" Style="{StaticResource CosmoButton}"/>
+               <Button Content="4 Graczy" Tag="4" Click="PlayerCount_Click" Margin="5" Style="{StaticResource CosmoButton}"/>
            </StackPanel>
            <StackPanel x:Name="PlayersPanel" Margin="0,20"/>
            <Button Content="Rozpocznij grę"
-             HorizontalAlignment="Center"
-             Width="200" Click="StartGame_Click"/>
+             HorizontalAlignment="Center" Margin="22"
+             Width="200" Click="StartGame_Click"
+             Style="{StaticResource CosmoButton}"/>
        </StackPanel>
    </Grid>
 </Page>

@@ -1,0 +1,143 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="GalacticMonopoly.UI.Views.PlayerAssetsWindow"
+        Title="Aktywa gracza"
+        Height="620" Width="700"
+        WindowStartupLocation="CenterOwner"
+        Background="#191924"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <Style x:Key="CosmoButton" TargetType="{x:Type Button}">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="8,2"/>
+            <Setter Property="Background" Value="#20294A"/>
+            <Setter Property="Foreground" Value="#16E5F5"/>
+            <Setter Property="BorderBrush" Value="#39C2CB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="MinWidth" Value="90"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Border Background="#26273A" CornerRadius="16" Padding="18">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+                <!-- Nagłówek gracza -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <Image Source="{Binding Player.AvatarPath}" Width="72" Height="72" Margin="0,0,12,0"/>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Player.Name}" Foreground="Cyan" FontSize="24" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Player.Credits, StringFormat=Kredyty: \{0\}}" Foreground="Lime" FontSize="14"/>
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock Text="Układy planetarne:" FontWeight="Bold" Foreground="#FFC8F4" Margin="0,0,0,6"/>
+                <ItemsControl ItemsSource="{Binding Systems}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,4,0,16" Background="#332a52">
+                                <TextBlock Text="{Binding Name}" Foreground="Gold" FontWeight="Bold" FontSize="15"/>
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <ItemsControl ItemsSource="{Binding Planets}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Border Background="#271C38" CornerRadius="8" Margin="4,0" Padding="4">
+                                                    <StackPanel>
+                                                        <Image Source="{Binding ImagePath}" Height="48" Width="80"/>
+                                                        <TextBlock Text="{Binding Name}" Foreground="White" FontWeight="SemiBold" FontSize="12" TextAlignment="Center" Margin="0,3,0,0"/>
+                                                        <ItemsControl ItemsSource="{Binding Structures}">
+                                                            <ItemsControl.ItemTemplate>
+                                                                <DataTemplate>
+                                                                    <TextBlock Text="{Binding}" FontSize="11" Foreground="Orange"/>
+                                                                </DataTemplate>
+                                                            </ItemsControl.ItemTemplate>
+                                                        </ItemsControl>
+                                                        <!-- Rozwidlenie portu kosmicznego -->
+                                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,4,0,0">
+                                                            <Button Content="Do Farmy"
+                                                                    Style="{StaticResource CosmoButton}"
+                                                                    Visibility="{Binding CanUpgradeToFarm, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                                    Click="UpgradeToFarm_Click"
+                                                                    Tag="{Binding}"/>
+                                                            <Button Content="Do Kopalni"
+                                                                    Style="{StaticResource CosmoButton}"
+                                                                    Visibility="{Binding CanUpgradeToMine, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                                    Click="UpgradeToMine_Click"
+                                                                    Tag="{Binding}"/>
+                                                            <Button Content="Do Posterunku"
+                                                                    Style="{StaticResource CosmoButton}"
+                                                                    Visibility="{Binding CanUpgradeToOutpost, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                                    Click="UpgradeToOutpost_Click"
+                                                                    Tag="{Binding}"/>
+                                                        </StackPanel>
+                                                        <!-- Standardowe ulepszanie -->
+                                                        <Button Content="Ulepsz"
+                                                                Style="{StaticResource CosmoButton}"
+                                                                Visibility="{Binding CanUpgrade, Converter={StaticResource BoolToVisibilityConverter}}"
+                                                                Click="Upgrade_Click"
+                                                                Tag="{Binding}"
+                                                                Margin="0,6,0,0"/>
+                                                    </StackPanel>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                                <!-- Budowle systemowe + przyciski do budowy struktur systemowych -->
+                                <StackPanel Orientation="Horizontal" Margin="0,8,0,0" VerticalAlignment="Center">
+                                    <ItemsControl ItemsSource="{Binding SystemStructures}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding}" Foreground="DeepSkyBlue" FontSize="11" Margin="0,0,8,0"/>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                    <Button Content="Stocznia Galaktyczna"
+                                            Style="{StaticResource CosmoButton}"
+                                            Background="#576cf0"
+                                            Foreground="White"
+                                            Visibility="{Binding CanBuildShipyard, Converter={StaticResource BoolToVisibilityConverter}}"
+                                            Click="BuildShipyard_Click"
+                                            Tag="{Binding}" />
+                                    <Button Content="Kopalnia w pasie asteroid"
+                                            Style="{StaticResource CosmoButton}"
+                                            Background="#3ed383"
+                                            Foreground="White"
+                                            Visibility="{Binding CanBuildAsteroidMine, Converter={StaticResource BoolToVisibilityConverter}}"
+                                            Click="BuildAsteroidMine_Click"
+                                            Tag="{Binding}" />
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <TextBlock Text="Karty:" FontWeight="Bold" Foreground="#FFC8F4" Margin="0,16,0,6"/>
+                <ItemsControl ItemsSource="{Binding Player.Cards}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Description}" Foreground="Violet"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <Button Content="Zamknij" Margin="0,16,0,0" Click="Close_Click" HorizontalAlignment="Right" Style="{StaticResource CosmoButton}"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</Window>

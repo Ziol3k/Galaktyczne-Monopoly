@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-using GalacticMonopoly.Core.Enums;
+﻿using GalacticMonopoly.Core.Enums;
 using GalacticMonopoly.Core.Game;
 using GalacticMonopoly.Core.Services;
 
@@ -17,6 +11,7 @@ namespace GalacticMonopoly.Core.Models
         public bool IsOwned { get; set; }
         public Player Owner { get; set; }
         public Structure structure { get; set; }
+        public SystemPlanet System { get; set; }
 
         public Planet(string name, int price)
         {
@@ -25,7 +20,7 @@ namespace GalacticMonopoly.Core.Models
             IsOwned = false;
         }
 
-        public void Buy(Player player)
+        public bool Buy(Player player)
         {
             if (!IsOwned && player.Pay(Price))
             {
@@ -33,9 +28,10 @@ namespace GalacticMonopoly.Core.Models
                 Owner = player;
                 player.AddPlanet(this);
                 GameEventLogger.LogPlanetPurchase(player, this);
+                SetStructure(new Structure(StructureType.SpacePort, this));
+                return true;
             }
-            SetStructure(new Structure(StructureType.SpacePort, this));
-
+            return false;
         }
 
         public void SetStructure(Structure structure)
@@ -44,4 +40,3 @@ namespace GalacticMonopoly.Core.Models
         }
     }
 }
-

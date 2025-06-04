@@ -21,7 +21,6 @@ namespace GalacticMonopoly.Core.Game
             }
         }
 
-        // Wykonuje tylko ruch gracza i zwraca wynik rzutu
         public int PerformMovement()
         {
             var player = State.CurrentPlayer;
@@ -30,19 +29,31 @@ namespace GalacticMonopoly.Core.Game
             if (player.Status == Enums.PlayerStatus.SkippedTurn)
             {
                 player.Status = Enums.PlayerStatus.Active;
-                return -1; // Skipped turn, no movement
+                return -1;
             }
 
             int roll = Dice.Roll();
             GameEventLogger.LogDiceRoll(player, roll);
 
             int oldPosition = player.Position;
-            player.Position = (player.Position + roll) % State.GalaxyMap.Fields.Count;
+            int newPosition = (player.Position + roll) % State.GalaxyMap.Fields.Count;
+
+            // SPRAWDZENIE przejścia przez START
+            if (newPosition <= oldPosition)
+            {
+                int income = IncomeCalculator.Calculate(player);
+                player.AddCredits(income);
+                // Możesz też dodać logowanie:
+                GameEventLogger.LogGameEvent($"{player.Name} przeszedł przez Start i otrzymał {income} kredytów.");
+            }
+
+            player.Position = newPosition;
 
             GameEventLogger.LogPlayerMove(player, oldPosition, player.Position);
 
             return roll;
         }
+
 
         // Wykonuje efekty pola (bez zmiany tury)
         public void ApplyFieldEffects()

@@ -5,10 +5,19 @@
     <Compile Update="Views\AvatarSelectWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\CardDrawWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\GalacticTicketWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\GameBoardPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MainMenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\PlayerAssetsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -3,6 +3,33 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:controls="clr-namespace:Controls;assembly=Controls"
       Background="Black">
+    <Page.Resources>
+        <Style x:Key="CosmoButton" TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="8,2"/>
+            <Setter Property="Background" Value="#20294A"/>
+            <Setter Property="Foreground" Value="#16E5F5"/>
+            <Setter Property="BorderBrush" Value="#39C2CB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="MinWidth" Value="90"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+    </Page.Resources>
     <Grid>
         <Image Source="/Images/background.png" Stretch="Fill" Panel.ZIndex="0"/>
         <Grid Panel.ZIndex="1">
@@ -25,14 +52,22 @@
 
             <!-- Board -->
             <Grid Grid.Row="1" Grid.Column="1">
-                <controls:CirclePanel x:Name="BoardPanel" Width="800" Height="800"/>
+                <controls:CirclePanel x:Name="BoardPanel" Width="1200" Height="1200"/>
                 <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center"
                     Background="#77000000" Width="200">
                     <TextBlock x:Name="TurnText" Foreground="White" FontWeight="Bold"
                      FontSize="14" TextAlignment="Center"/>
-                    <Button Content="Rzuć kością" Click="RollDice_Click" Margin="5"/>
+                    <Button Content="Rzuć kością"
+                            Click="RollDice_Click" Margin="5"
+                            Style="{StaticResource CosmoButton}"/>
+                    <Button x:Name="SkipTurnButton"
+                            Content="Pomiń turę"
+                            Click="SkipTurn_Click"
+                            Margin="5"
+                            Style="{StaticResource CosmoButton}"
+                            Visibility="Collapsed"/>
                     <TextBlock x:Name="DiceText" Foreground="Yellow" FontSize="16"
-                     FontWeight="Bold" TextAlignment="Center" Text="Wynik: -"/>
+                     FontWeight="Bold" TextAlignment="Center" Text="Wynik: -" Height="35"/>
                 </StackPanel>
             </Grid>
         </Grid>

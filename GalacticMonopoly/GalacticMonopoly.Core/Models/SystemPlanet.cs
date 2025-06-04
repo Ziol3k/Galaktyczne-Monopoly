@@ -27,6 +27,7 @@ namespace GalacticMonopoly.Core.Models
             if (planet != null && !Planets.Contains(planet))
             {
                 Planets.Add(planet);
+                planet.System = this; // USTAWIAMY DWUSTRONNĄ RELACJĘ!
             }
         }
 

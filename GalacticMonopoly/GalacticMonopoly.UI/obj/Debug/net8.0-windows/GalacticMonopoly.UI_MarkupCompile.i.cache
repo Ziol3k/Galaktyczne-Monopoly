@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\Studia\Galaktyczne Monoply\GalacticMonopoly\GalacticMonopoly.UI\App.xaml
-4-1294391294
-22-42177036
-10105338240
+7-1059579471
+34639999801
+13-1322391523
 200311646879
-MainWindow.xaml;Views\AvatarSelectWindow.xaml;Views\GameBoardPage.xaml;Views\MainMenuPage.xaml;
+MainWindow.xaml;Views\AvatarSelectWindow.xaml;Views\CardDrawWindow.xaml;Views\GalacticTicketWindow.xaml;Views\GameBoardPage.xaml;Views\MainMenuPage.xaml;Views\PlayerAssetsWindow.xaml;
 
-True
+False
 

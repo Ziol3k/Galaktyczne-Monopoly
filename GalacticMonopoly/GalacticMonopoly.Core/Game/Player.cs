@@ -20,14 +20,15 @@ namespace GalacticMonopoly.Core.Game
         public List<SystemPlanet> OwnedSystemPlanets { get; set; } = new List<SystemPlanet>();
         public PlayerStatus Status { get; set; } = PlayerStatus.Active;
         public int Position { get; set; } = 0;
-        public int SkipedTurns { get; set; } = 0;
         public int ConsecutiveSkips { get; set; } = 0;
         public bool CanSkipTurn => ConsecutiveSkips < 2; // Gracz może pominąć turę maksymalnie 2 razy z rzędu
+
+        public bool HasUpgradedThisTurn { get; set; } = false;
 
         public Player(string name)
         {
             Name = name;
-            Credits = 1000; // Początkowe kredyty
+            Credits = 10000; // Początkowe kredyty
         }
 
         public void AddCredits(int amount)
@@ -74,9 +75,7 @@ namespace GalacticMonopoly.Core.Game
         {
             if (CanSkipTurn)
             {
-                Status = PlayerStatus.SkippedTurn;
                 ConsecutiveSkips++;
-                SkipedTurns++;
                 GameEventLogger.LogTurnSkip(this, ConsecutiveSkips);
             }
         }

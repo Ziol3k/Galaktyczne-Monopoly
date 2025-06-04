@@ -1,12 +1,11 @@
-﻿// GalacticMonopoly.UI/Views/MainMenuPage.xaml.cs
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using GalacticMonopoly.Core.Game;
 using GalacticMonopoly.Core.Models;
 using Controls;
-using GalacticMonopoly.UI.Map;
+using GalacticMonopoly.Core.Factories; // <-- poprawny using!
 
 namespace GalacticMonopoly.UI.Views
 {
@@ -40,9 +39,6 @@ namespace GalacticMonopoly.UI.Views
             }
         }
 
-        /// <summary>
-        /// Otwiera dialog wyboru avatara i zwraca absolutną ścieżkę do pliku.
-        /// </summary>
         private string ShowAvatarDialog(int playerNumber)
         {
             var dlg = new AvatarSelectionWindow();
@@ -60,7 +56,7 @@ namespace GalacticMonopoly.UI.Views
             }
 
             var game = new Game();
-            var map = DefaultMapFactory.Create();
+            var map = DefaultMapFactory.Create(); // <-- używaj tylko tej fabryki!
             game.InitializeGame(_players.Count, map);
 
             for (int i = 0; i < _players.Count; i++)
